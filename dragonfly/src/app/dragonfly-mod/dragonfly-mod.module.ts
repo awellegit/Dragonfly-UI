@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormComponent } from './pages/pages/form/form.component';
 import { ListComponent } from './pages/list/list.component';
-
-
+import { FormComponent } from './pages/pages/form/form.component';
+import { DragonflyModRoutingModule } from './dragonfly-mod-routing/dragonfly-mod-routing.module';
 
 @NgModule({
-  declarations: [
-    FormComponent,
-    ListComponent
-  ],
+  declarations: [ListComponent, FormComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    DragonflyModRoutingModule
   ]
 })
 export class DragonflyModModule { }
