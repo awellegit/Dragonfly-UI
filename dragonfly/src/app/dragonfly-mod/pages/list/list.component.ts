@@ -4,7 +4,7 @@ import { Dragonfly } from '../../models/dragonfly.interface';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.sass']
+  styleUrls: ['./list.component.sass'],
 })
 export class ListComponent {
    dragonflies: Dragonfly[] = [

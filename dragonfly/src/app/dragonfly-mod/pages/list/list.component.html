@@ -1,7 +1,10 @@
 
 <div>
-    <h1>Hello, List</h1>
-    <ul>
-      <li *ngFor="let dragonfly of dragonflies">{{ dragonfly.knownAs }}</li>
-    </ul>
+    <mat-list>
+      <div mat-subheader>Dragonflies</div>
+      <mat-list-item *ngFor="let dragonfly of dragonflies">
+        <mat-icon matListItemIcon>explore</mat-icon>
+        <div matListItemLine>{{ dragonfly.knownAs }}</div>
+      </mat-list-item>
+    </mat-list>
   </div>
