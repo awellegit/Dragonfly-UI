@@ -9,13 +9,13 @@ const ELEMENT_DATA: Dragonfly[] = [
     knownAs: "Butterfly Dragonfly",
     species: "Rhyothemis fuliginosa",
     class: "Insecta",
-    imageUrl: "https://live.staticflickr.com/65535/53258376513_d3c2b65af9_m.jpg",
+    imageUrl: "assets/800px-Rhyothemis_fuliginosa.jpg",
   },
   {
-    knownAs: "Butterfly Dragonfly",
-    species: "Rhyothemis fuliginosa",
+    knownAs: "Dragonfly Anatomy",
+    species: "All",
     class: "Insecta",
-    imageUrl: "https://live.staticflickr.com/65535/53258376513_d3c2b65af9_m.jpg",
+    imageUrl: "assets/Dragonfly_anatomy.jpg",
   }
 ]
 
@@ -47,12 +47,12 @@ export class DashboardComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Dragonfly Products', cols: 1, rows: 1 },
+          { title: 'Dragonfly Notes', cols: 1, rows: 1 },
         ];
       }
 
       return [
-        { title: 'Dragonfly Products', cols: 2, rows: 1 },
+        { title: 'Dragonfly Notes', cols: 2, rows: 1 },
       ];
     })
   );

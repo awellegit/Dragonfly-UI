@@ -19,3 +19,9 @@
 .dashboard-card-content {
   text-align: center;
 }
+
+.example-container {
+  height: 600px;
+  max-width: 100%;
+  overflow: auto;
+}
