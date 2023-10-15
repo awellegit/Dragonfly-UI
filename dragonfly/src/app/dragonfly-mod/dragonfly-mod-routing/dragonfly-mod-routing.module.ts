@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListComponent } from '../pages/list/list.component';
 import { FormComponent } from '../pages/pages/form/form.component';
+import { DashboardComponent } from '../pages/dashboard/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
-    path: 'list',
-    component: ListComponent,
-  },
-  {
     path: 'form',
     component: FormComponent,
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
   },
 ];
 
